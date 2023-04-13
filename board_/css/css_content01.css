@@ -1,0 +1,112 @@
+﻿#content01 table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#content01 td {
+    padding: 3px 5px;
+}
+
+#content01 td {
+    padding: 3px 5px;
+}
+
+#content01 th {
+    background: #42444e;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+#content01 td {
+    border-right: 1px solid #c6c9cc;
+    border-bottom: 1px solid #c6c9cc;
+}
+
+    #content01 td:first-child {
+        border-left: 1px solid #c6c9cc;
+    }
+
+#content01 tr:nth-child(even) td {
+    background: #eaeaed;
+}
+
+#content01 #top {
+    margin-bottom: 30px;
+}
+
+#content01 body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul {
+    margin-top: 20px;
+}
+
+/* 사이드바 영역 스타일 */
+#content01 .sidebar {
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+}
+
+    /* 사이드바 내부 리스트 스타일 */
+    #content01 .sidebar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* 사이드바 내부 리스트 아이템 스타일 */
+    #content01 .sidebar li {
+        padding: 10px;
+    }
+
+/* 메인 컨텐츠 영역 스타일 */
+#content01 .main-content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+
+    #content01 .main-content #bottom {
+        margin-left: 900px;
+        margin-top: 30px;
+    }
+
+    #content01 .main-content #content {
+        margin-left: 100px;
+        margin-right: 100px
+    }
+
+#content01 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+#content01 .w-btn {
+    margin-top: 150px;
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+
+#content01 .w-btn-blue {
+    background-color: #42444E;
+    color: white;
+}

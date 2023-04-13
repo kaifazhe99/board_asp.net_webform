@@ -1,0 +1,62 @@
+﻿
+#detail {
+    margin-bottom: 100px;
+}
+
+    #detail table {
+        width: 100%;
+        border-top: 1px solid #444444;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    #detail th {
+        border-bottom: 1px solid #444444;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #detail td {
+        border-bottom: 1px solid #444444;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+    #detail thead tr {
+        background-color: #42444E;
+        color: #ffffff;
+    }
+
+    #detail tbody tr:nth-child(2n+1) {
+        background-color: #EAEAED;
+    }
+
+
+    #detail .w-btn {
+        margin-top: 150px;
+        position: relative;
+        border: none;
+        display: inline-block;
+        padding: 15px 30px;
+        border-radius: 15px;
+        font-family: "paybooc-Light", sans-serif;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.25s;
+    }
+
+    #detail .w-btn-blue {
+        background-color: #42444E;
+        color: white;
+    }
+
+    #detail a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+#btn {
+    margin-bottom: 25px;
+}

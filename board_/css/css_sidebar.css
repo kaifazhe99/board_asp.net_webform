@@ -1,0 +1,41 @@
+﻿#sidebar .sidebar ul {
+    margin-top: 20px;
+}
+
+/* 사이드바 영역 스타일 */
+#sidebar .sidebar {
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+}
+
+    /* 사이드바 내부 리스트 스타일 */
+    #sidebar .sidebar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* 사이드바 내부 리스트 아이템 스타일 */
+    #sidebar .sidebar li {
+        padding: 10px;
+    }
+
+a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #9B9D9E;
+}
+
+
+#id {
+    color: white;
+    margin-right: 15px;
+}
+
+#pw {
+    color: white;
+}

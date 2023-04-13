@@ -1,0 +1,41 @@
+﻿#content03 table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 879px;
+}
+
+#content03 td {
+    padding: 3px 5px;
+}
+
+#content03 td {
+    padding: 3px 5px;
+}
+
+#content03 th {
+    background: #42444e;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+#content03 td {
+    border-right: 1px solid #c6c9cc;
+    border-bottom: 1px solid #c6c9cc;
+}
+
+    #content03 td:first-child {
+        border-left: 1px solid #c6c9cc;
+    }
+
+#content03 tr:nth-child(even) td {
+    background: #eaeaed;
+}
+
+/* 메인 컨텐츠 영역 스타일 */
+#content03 .main-content {
+    margin-left: 320px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

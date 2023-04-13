@@ -1,0 +1,80 @@
+﻿#content02 table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 879px;
+}
+
+#content02 td {
+    padding: 3px 5px;
+}
+
+#content02 td {
+    padding: 3px 5px;
+}
+
+#content02 th {
+    background: #42444e;
+    color: #fff;
+    text-align: left;
+}
+
+
+
+#content02 td {
+    border-right: 1px solid #c6c9cc;
+    border-bottom: 1px solid #c6c9cc;
+}
+
+    #content02 td:first-child {
+        border-left: 1px solid #c6c9cc;
+    }
+
+#content02 tr:nth-child(even) td {
+    background: #eaeaed;
+}
+
+#content02 #top {
+    margin-bottom: 30px;
+}
+
+#content02 body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 사이드바 영역 스타일 */
+#content02 .sidebar {
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+}
+
+    /* 사이드바 내부 리스트 스타일 */
+    #content02 .sidebar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* 사이드바 내부 리스트 아이템 스타일 */
+    #content02 .sidebar li {
+        padding: 10px;
+    }
+
+/* 메인 컨텐츠 영역 스타일 */
+#content02 .main-content {
+    margin-left: 320px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+#content02 a {
+    text-decoration: none;
+    color: inherit;
+}
